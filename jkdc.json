@@ -1,0 +1,49 @@
+{
+    "urls": [
+		{
+			"url": "http://itvbox.cc/tvbox/云星日记/1.m3u8",
+			"name": "☁️云星家庭〔纯绿色家庭版〕"
+		},
+		{
+			"url": "http://itvbox.cc/tvbox/云星日记/ali.m3u8",
+			"name": "☁️云星阿里〔小纸条/推送等〕"
+		},
+		{
+			"url": "http://itvbox.cc/tvbox/云星日记/bili.m3u8",
+			"name": "☁️云星哔哩〔大套餐/学堂等〕"
+		},
+		{
+			"url": "https://gitee.com/lekanbox/ysc/raw/master/ysc.json",
+			"name": "💖VIP"
+		},
+{
+			"url": "https://agit.ai/relax/adcc/raw/branch/master/tvbox.json",
+			"name": "💖巧技〔多条线路〕"
+		},
+		{
+			"url": "http://刚刚.live/猫",
+			"name": "💖刚刚〔多条线路〕"
+		},
+	{
+			"url": "https://yydsys.top/duo",
+			"name": "💖多多"
+			},
+{
+			"url": "http://52bsj.vip:98/wuai",
+			"name": "💖吾爱"
+		},
+
+		{
+			"url": "http://我不是.肥猫.love:63/接口禁止贩卖",
+			"name": "💖肥猫Panda〔多条线路〕"
+		},
+		
+		{
+			"url": "http://饭太硬.ga/x/o.json",
+			"name": "💖饭太硬〔多条线路〕"
+		},
+		{
+			"url": "https://agit.ai/a1341496185q/za/raw/branch/master/json",
+			
+			"name": "自用组合"
+		}]}
