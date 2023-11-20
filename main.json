@@ -1,0 +1,486 @@
+{
+  "spider": "./custom_spider.jar;md5;364C0F012E73A8801A69900FC25AE9C1",
+  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
+  "warningText": "码上放生公众号免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://fanmingming.com/txt?url=https://iptv-org.github.io/iptv/languages/zho.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.12.13",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites": [
+    {
+      "key": "dr_时光机在线豆瓣",
+      "name": "🌞稳定版时光机💢v20231116-30",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./sites/码上/豆瓣.js"
+    },
+    {
+      "key": "csp_KungFu404",
+      "name": "🔥码上设置Token",
+      "type": 3,
+      "api": "csp_KungFu404",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tm/token.txt",
+      "jar": "./sites/码上/alibaba.jar"
+    },
+    {
+      "key": "jar_码上看玩偶",
+      "name": "🔥码上看玩偶",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
+    },
+    {
+      "key": "dr_码上看低端",
+      "name": "🔥码上看低端",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./sites/码上/低端影视.js"
+    },
+    {
+      "key": "dr_码上看荐片",
+      "name": "🔥码上看荐片",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "playerType": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./sites/码上/荐片.js"
+    },
+    {
+      "key": "dr_码上看动漫",
+      "name": "🔥码上看动漫",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./sites/码上/哔哩影视.js"
+    },
+    {
+      "key": "dr_码上看白白",
+      "name": "🔥码上看白白",
+      "type": 3,
+      "api": "./sites/码上/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./sites/码上/素白白.js"
+    },
+    {
+      "key": "push_agent",
+      "name": "🔥码上推送阿里云",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+    },
+    {
+      "key": "🔥关注【码上放生】公众号",
+      "name": "🔥关注【码上放生】公众号",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "豆豆",
+      "name": "码上👓豆-家庭影院首页",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "厂长",
+      "name": "码上👓豆-1080P站-A-1",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/cz.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "drpy_js_两个BT",
+      "name": "码上👓豆-1080P站-A",
+      "type": 3,
+      "api": "http://106.52.241.21:99/JS/lib/drpy2.min.js",
+      "ext": "http://106.52.241.21:99/JS/js/两个BT.js"
+    },
+    {
+      "key": "lurenjia",
+      "name": "码上👓豆-1080P站-B",
+      "type": 1,
+      "api": "http://dytt996.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playUrl": "json:https://gg.dytt996.com/quad.php?url="
+    },
+    {
+      "key": "zxzj",
+      "name": "码上👓豆-1080P站-C",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzj.pro/",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "csp_Bttoo",
+      "name": "码上👓豆-1080P站-D",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "app_轻简",
+      "name": "码上👓豆-1080P站-F",
+      "type": 1,
+      "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/",
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
+      ]
+    },
+    {
+      "key": "csp_WoGG",
+      "name": "码上👓豆-4KHDR站-A",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd$$$http://www.wogg.xyz/$$$关",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "PanSearch",
+      "name": "码上👓豆-4KHDR站-H",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "相声小品",
+      "name": "码上👓豆-相声小品",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/Blixs.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "戏曲",
+      "name": "码上👓豆-戏曲",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/Blixq.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "码上👓豆-儿童早教",
+      "type": 3,
+      "api": "http://frp.gerss.cn/e4a/app/js/lib/drpy2.min.js",
+      "ext": "http://frp.gerss.cn/e4a/app/js/js/兔小贝.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "少儿",
+      "name": "码上👓豆-少儿课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "小学",
+      "name": "码上👓豆-小学课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "初中",
+      "name": "码上👓豆-初中课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "高中",
+      "name": "码上👓豆-高中课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "csp_Bili",
+      "name": "码上👓豆-B站",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/json/Bili.json",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "88看球",
+      "name": "码上👓豆-⚽88看球",
+      "type": 3,
+      "api": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/api/lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/api/lib/88kanqiu.js"
+    },
+    {
+      "key": "七夜",
+      "name": "码上👓豆-4KHDR站-备用1",
+      "type": 3,
+      "api": "csp_Dovx",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "csp_search_Alips",
+      "name": "码上👓豆-4KHDR站-备用2",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 1,
+      "ext": "http://127.0.0.1:9978/file/tm/token.txt",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    },
+    {
+      "key": "UpYun",
+      "name": "码上👓豆-4KHDR站-备用3",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd",
+      "jar": "https://tudouaa1.oss-cn-beijing.aliyuncs.com/jar/fan1104.jar;md5;514c44ae1ccc02d41e69326d5eea4242"
+    }
+  ],
+  "parses": [
+    {
+      "name": "码上解析1",
+      "type": 1,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "码上解析2",
+      "type": 1,
+      "url": "https://jx.googe.cc/api/bfq/?key=pDUrtM5UHLtQJGDTYl&url="
+    },
+    {
+      "name": "码上解析3",
+      "type": 1,
+      "url": "https://jx.xmflv.cc/?url="
+    },
+    {
+      "name": "码上解析4",
+      "type": 1,
+      "url": "https://jx.playerjy.com/?url="
+    },
+    {
+      "name": "码上解析5",
+      "type": 1,
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+    {
+      "name": "码上解析6",
+      "type": 1,
+      "url": "https://www.8090g.cn/jiexi/?url="
+    },
+    {
+      "name": "码上解析7",
+      "type": 1,
+      "url": "https://www.8090.la/8090/?url="
+    },
+    {
+      "name": "码上解析8",
+      "type": 1,
+      "url": "http://www.jzmhtt.com/zdy/vip/?url="
+    },
+    {
+      "name": "码上解析9",
+      "type": 1,
+      "url": "https://www.playm3u8.cn/jiexi.php?url="
+    },
+    {
+      "name": "码上解析10",
+      "type": 1,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "TA",
+      "type": 1,
+      "url": "https://hd.396pay.cn/api/diy/?key=pFELnzclw6RdhxNlH6&url="
+    },
+    {
+      "name": "TB",
+      "type": 1,
+      "url": "https://api.xn--kcr500a391b.cc/api/jiexi/common?Key=V1JNMfpVhruGmgbj5s&url="
+    },
+    {
+      "name": "TD",
+      "type": 1,
+      "url": "http://119.45.115.156:90/cache.php?url="
+    },
+    {
+      "name": "TC",
+      "type": 1,
+      "url": "https://hd.396pay.cn/api/diy/?key=pFELnzclw6RdhxNlH6&url="
+    },
+    {
+      "name": "TBF",
+      "type": 1,
+      "url": "http://106.53.99.43:84/bf.php?url="
+    },
+    {
+      "name": "TLZ",
+      "type": 1,
+      "url": "http://106.53.99.43:84/lz.php?url="
+    },
+    {
+      "name": "TFF",
+      "type": 1,
+      "url": "http://106.53.99.43:84/ff.php?url="
+    },
+    {
+      "name": "T49",
+      "type": 1,
+      "url": "http://106.53.99.43:84/49.php?url="
+    }
+  ],
+  "rules": [],
+  "flags": [],
+  "ads": [
+    "z6.cnzz.com",
+    "mimg.0c1q0l.cn",
+    "cms.qdwght.com",
+    "tp.vinuxhome.com",
+    "tj.tianwenhu.com",
+    "v1.cnzz.com",
+    "z1.cnzz.com",
+    "z8.cnzz.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "k.jinxiuzhilv.com",
+    "www.92424.cn",
+    "qiu.xixiqiu.com",
+    "um.cavuc.com",
+    "k.wudejia.com",
+    "xg.gars57.cn",
+    "ppl.xunzhuo123.com",
+    "xg.huataisangao.cn",
+    "s19.cnzz.com",
+    "mscs.svaeuzh.cn",
+    "img.mosflower.cn",
+    "c.cnzz.com",
+    "hm.baidu.com",
+    "xg.whsbpw.cn",
+    "ehwe.yhdtns.com",
+    "thy.dacedsfa.cn",
+    "f5w.as12df.top",
+    "vivovip.mmszxc.top",
+    "tips.gamevvip.com",
+    "s4.cnzz.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "xc.hubeijieshikj.cn",
+    "z7.cnzz.com",
+    "s9.cnzz.com",
+    "cdnjs.hnfenxun.com",
+    "cnzz.mmstat.com",
+    "z2.cnzz.com",
+    "www.baihuillq.com",
+    "mg.g1mm3d.cn",
+    "img.xunzhuo123.com",
+    "cnzz.hhttm.top",
+    "ae01.alicdn.com",
+    "www.google-analytics.com",
+    "z5.cnzz.com",
+    "s23.cnzz.com",
+    "s96.cnzz.com",
+    "s13.cnzz.com",
+    "xdn.cqqc3.com",
+    "xomk.jiangjunmh.top",
+    "mc.usihnbcq.cn",
+    "cdn.bootcss.com",
+    "z3.cnzz.com",
+    "videocloud.cn-hangzhou.log.aliyuncs.com",
+    "z12.cnzz.com",
+    "www.googletagmanager.com",
+    "stj.v1vo.top",
+    "q11.cnzz.com"
+  ]
+}
